@@ -46,6 +46,10 @@ header {
     color: var(--primary-color);
 }
 
+.logo_font {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .nav-links a {
     margin-left: 2rem;
     text-decoration: none;
@@ -71,7 +75,7 @@ header {
 
 .hero-content {
     flex: 1;
-    padding-right: 2rem;
+    padding-left: 2rem;
 }
 
 .hero h1 {
@@ -110,6 +114,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-right: 2rem;
 }
 
 .hero-animation img {
@@ -349,6 +354,11 @@ footer {
     }
 
     .hero-content {
+        padding-left: 0;
+        margin-bottom: 2rem;
+    }
+
+    .hero-animation {
         padding-right: 0;
         margin-bottom: 2rem;
     }
